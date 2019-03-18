@@ -6,15 +6,28 @@
 
 body {
 }
-.jumbotron {
-  background-color: #0e0e0e;
-  color: white;
-}
-.portfolio-item {
-  margin-bottom: 30px;
+
+#main-header {
+  background-color: #2d87ab;
+  color: #0071BC;
+  font-family: 'Roboto Condensed';
+  font-size: 14px;
+  font-weight: bold;
+  /* font-family: 'Oswald', sans-serif; */
 }
 
+#title-header {
+  background-color: #DADADA;
+}
 
+.row-bottom-header{
+  margin-top: 1%;
+}
+
+.row-top-header{
+  margin-bottom: 1%;
+  transform:matrix(0.866,0.7,-0.8,0.866,0,0);
+}
 /* queries */
 @media (min-width: 992px) {
   body {
