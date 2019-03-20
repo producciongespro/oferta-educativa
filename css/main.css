@@ -73,6 +73,10 @@ body {
     border-radius: 50%;
 }
 
+.btn-right {
+  float: right;
+  background-color: #DADADA;
+}
 .card {
   /* background-color: rgba(2,108,179)!important; */
   color: #aab8d2;
@@ -90,9 +94,14 @@ body {
   border-bottom: 2px solid rgba(58, 57, 57, 0.13)!important;
 }
 
-.card-footer {
+.card-footer  {
   border-radius:  0rem 0rem 1.5rem 1.5rem!important; 
   border-top: 2px solid rgba(58, 57, 57, 0.13)!important;
+}
+
+.card-footer  a {
+  color: black;
+  font-family: Oswald;
 }
 
 .card-header-circle-home {
@@ -104,11 +113,48 @@ body {
   background: white;
 }
 
-img.card-header-img {
+img.card-header-img { 
   max-width: 150px;
   max-height: 151px;
-  margin-top: -33%;
-  margin-left: 21%;
+  /* margin-top: -33%;
+  margin-left: 21%; */
+  -moz-transform: translate(50px, -86px);
+-webkit-transform: translate(50px, -86px);
+-o-transform: translate(50px, -86px);
+-ms-transform:translate(50px, -86px);
+transform: translate(50px, -86px);
+}
+
+.div-image-home {
+  position: relative;
+  max-height: 63px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-47px, -75px);
+    -webkit-transform: translate(-47px, -75px);
+    -o-transform: translate(-47px, -75px);
+    -ms-transform:translate(-47px, -75px);
+    transform: translate(-47px, -75px);
+    color: black;
+    text-shadow: 1px 1px 2px gray;
+    margin-right: 19px;
+  }
+
+/* img.card-header-img {
+  max-width: 150px;
+  max-height: 151px;
+  position: absolute;
+  top: -33%;
+  left: 21%;
+} */
+
+.text-header-circle
+{
+  font-size: 10px;
 }
 
 /* queries */
@@ -119,8 +165,8 @@ img.card-header-img {
   img.card-header-img {
     max-width: 200%;
     max-height: 200%;
-    margin-top: -15%;
-    margin-left: 36%;
+    /* margin-top: -15%;
+    margin-left: 36%; */
   }
 }
 

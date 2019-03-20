@@ -6,5 +6,7 @@ $(document).ready(function () {
 });
 
 function header_cards_home() {
+    $(window).resize(function(){
     
+     });
 }
