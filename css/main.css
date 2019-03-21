@@ -53,6 +53,10 @@ body {
   -webkit-border-radius: 50%;
   border-radius: 50%;
   background: white;
+  -moz-transform: rotate(-8deg) translate(-7%, -96%);
+  -webkit-transform:rotate(-8deg) translate(-7%, -96%);
+  -o-transform: rotate(-8deg) translate(-7%, -96%);
+  -ms-transform:rotate(-8deg) translate(-7%, -96%);
   transform: rotate(-8deg) translate(-7%, -96%);
 }
 
@@ -134,6 +138,10 @@ img.card-header-img {
 /* queries */
 @media (min-width: 768px) and (max-width: 992px){
   .oval-footer {
+    -moz-transform: rotate(-10deg) translate(-7%, -91%);
+    -webkit-transform: rotate(-10deg) translate(-7%, -91%);
+    -o-transform: rotate(-10deg) translate(-7%, -91%);
+    -ms-transform:rotate(-10deg) translate(-7%, -91%);
     transform: rotate(-10deg) translate(-7%, -91%);
   }
 
@@ -156,6 +164,10 @@ img.card-header-img {
     width: 150%;
     min-height: 150px;
     height: 100%;
+    -moz-transform: rotate(-3deg) translate(-26%, -49%);
+    -webkit-transform: rotate(-3deg) translate(-26%, -49%);
+    -o-transform:  rotate(-3deg) translate(-26%, -49%);
+    -ms-transform: rotate(-3deg) translate(-26%, -49%);
     transform: rotate(-3deg) translate(-26%, -49%);
   }
   
@@ -198,6 +210,10 @@ img.card-header-img {
     width: 150%;
     min-height: 150px;
     height: 100%;
+    -moz-transform:rotate(-1deg) translate(-28%, -45%);
+    -webkit-transform: rotate(-1deg) translate(-28%, -45%);
+    -o-transform: rotate(-1deg) translate(-28%, -45%);
+    -ms-transform: rotate(-1deg) translate(-28%, -45%);
     transform: rotate(-1deg) translate(-28%, -45%);
   }
   .credit-footer {
