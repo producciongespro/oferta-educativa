@@ -18,11 +18,25 @@
   filter: alpha(opacity=50); For IE8 and earlier */
 }
 
-
+.mep-logo {
+  max-width: 50px;
+  max-height: 50px;
+}
 .row-footer {
   background-color: #2d87ab;
+  max-height: 100px;
   height: 100px;
   overflow: hidden;
+}
+
+.row-header {
+  background-color: transparent;
+  max-height: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+.bg-blue-header {
+  background-color: #2d87ab;
 }
 
 .oval-footer {
@@ -41,15 +55,38 @@
   transform: rotate(-8deg) translate(-7%, -96%);
 }
 
+.oval-header {
+  /* background-color: green; */
+  width: 443%;
+  min-height: 470px;
+    height: 245%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: white;
+    -moz-transform: rotate(181deg) translate(8%, -13%);
+    -webkit-transform: rotate(181deg) translate(8%, -13%);
+    -o-transform: rotate(181deg) translate(8%, -13%);
+    -ms-transform: rotate(181deg) translate(8%, -13%);
+   transform: rotate(180deg) translate(10%, 23%);
+
+}
+
 .credit-footer {
   background-color: #2d87ab;
   font-size: 1.3rem;
   padding: 1%;
 }
 
+.navbar-header {
+  background-color: #2d87ab;
+}
 
-
+#opciones>.nav-item a {
+  color: black;
+}
 /* queries */
+
 @media (min-width: 768px) and (max-width: 992px){
   .oval-footer {
     -moz-transform: rotate(-10deg) translate(-7%, -91%);
@@ -57,6 +94,13 @@
     -o-transform: rotate(-10deg) translate(-7%, -91%);
     -ms-transform:rotate(-10deg) translate(-7%, -91%);
     transform: rotate(-10deg) translate(-7%, -91%);
+  }
+  .oval-header {
+    -moz-transform: rotate(181deg) translate(12%, -12%);
+    -webkit-transform: rotate(181deg) translate(12%, -12%);
+    -o-transform: rotate(181deg) translate(12%, -12%);
+    -ms-transform:rotate(181deg) translate(12%, -12%);
+    transform: rotate(181deg) translate(12%, -12%);
   }
 }
 
@@ -74,6 +118,14 @@
   
   .credit-footer {
     font-size: 1rem;
+  }
+
+  .oval-header {
+    -moz-transform: rotate(181deg) translate(12%, -12%);
+    -webkit-transform: rotate(181deg) translate(12%, -12%);
+    -o-transform: rotate(181deg) translate(12%, -12%);
+    -ms-transform:rotate(181deg) translate(12%, -12%);
+    transform: rotate(181deg) translate(12%, -12%);
   }
 }
 
@@ -93,4 +145,28 @@
   .credit-footer {
     font-size: 0.8rem;
   }
+}
+
+@media (min-width: 274px) and (max-width: 450px){
+
+  .oval-header {
+    -moz-transform: rotate(182deg) translate(10%, -12%);
+    -webkit-transform: rotate(182deg) translate(10%, -12%);
+    -o-transform: rotate(182deg) translate(10%, -12%);
+    -ms-transform:rotate(182deg) translate(10%, -12%);
+    transform: rotate(182deg) translate(10%, -12%);
+  }
+
+}
+
+@media (min-width: 160px) and (max-width: 416px){
+
+  .oval-header {
+    -moz-transform: rotate(181deg) translate(21%, -12%);
+    -webkit-transform: rotate(181deg) translate(21%, -12%);
+    -o-transform: rotate(181deg) translate(21%, -12%);
+    -ms-transform:rotate(181deg) translate(21%, -12%);
+    transform: rotate(181deg) translate(21%, -12%);
+  }
+
 }
