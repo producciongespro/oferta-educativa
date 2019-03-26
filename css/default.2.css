@@ -22,7 +22,6 @@
 .navbar-expand-lg > .container {
   /* min-height: 100px; */
 }
-
 /* .navbar-header {
   background-color:  #0071BC;
 }
@@ -65,6 +64,34 @@
 .mt-10 {
    margin-top: 10.5rem !important;
 }
+/* .header-bg {
+  overflow: hidden;
+  max-height: 150px;
+  height: 150px;
+  background-image: url(../img/fondo-header.png)
+} */
+/* .row-header {
+  background-color: #0071BC;
+  max-height: 150px;
+  height: 150px;
+}
+
+.oval-header {
+  /* background-color: green; 
+  width: 443%;
+  min-height: 470px;
+    height: 245%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    /* background: white; 
+    -moz-transform: rotate(181deg) translate(8%, -13%);
+    -webkit-transform: rotate(181deg) translate(8%, -13%);
+    -o-transform: rotate(181deg) translate(8%, -13%);
+    -ms-transform: rotate(181deg) translate(8%, -13%);
+   transform: rotate(180deg) translate(10%, 23%); 
+}*/
+
 .img-logo {
   position: absolute;
   width: 100px;
@@ -126,12 +153,6 @@
     color: #2E3192!important;
     text-shadow: 0 0 1px #000;
   }
-  
-  .bg--header {
-    background-image: url(../img/header-1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
 }
 @media (min-width: 768px) and (max-width: 992px){
@@ -142,11 +163,24 @@
     -ms-transform:rotate(-10deg) translate(-7%, -91%);
     transform: rotate(-10deg) translate(-7%, -91%);
   }
-  /* .bg--header {
+  /* .oval-header {
+    min-height: 270px;
+    height: 245%;
+    -moz-transform: rotate(181deg) translate(12%, -12%);
+    -webkit-transform: rotate(181deg) translate(12%, -12%);
+    -o-transform: rotate(181deg) translate(12%, -12%);
+    -ms-transform:rotate(181deg) translate(12%, -12%);
+    transform: rotate(176deg) translate(50%, 56%);
+  }
+  .row-header {
+    max-height: 185px;
+    height: 185px;
+  } */
+  .bg--header {
     background-image: url(../img/header-2.png);
     background-repeat: no-repeat;
     background-size: cover;
-  } */
+  }
   
 }
 
@@ -191,6 +225,13 @@
   .credit-footer {
     font-size: 0.8rem;
   }
+  /* .oval-header {
+    -moz-transform: rotate(189deg) translate(14%, -1%);
+    -webkit-transform: rotate(189deg) translate(14%, -1%);
+    -o-transform: rotate(189deg) translate(14%, -1%);
+    -ms-transform: rotate(189deg) translate(14%, -1%);
+    transform: rotate(189deg) translate(14%, -1%);
+  } */
 }
 
 @media (min-width: 274px) and (max-width: 450px){
