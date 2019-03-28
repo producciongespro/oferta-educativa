@@ -3,40 +3,37 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
-/*!
- * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
- */
 
  body {
-}
-
-.container-content {
   background-image: url('../img/fondo.jpg');
-  /* opacity: 0.5;
-  filter: alpha(opacity=50); For IE8 and earlier */
 }
 
+.ver_mas {
+  color: brown;
+  font-size: 1rem;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
 
 .navbar-expand-lg > .container {
-  /* min-height: 100px; */
+  min-height: 90px;
 }
 
-/* .navbar-header {
-  background-color:  #0071BC;
-}
-
-#opciones>.nav-item a {
+.navbar-dark .navbar-nav .nav-link {
   color: white;
-  background-color:  #0071BC;
-} */
+  font-size: 20px;
+  font-family: 'Oswald';
+} 
 
 .dropdown-menu {
   padding: 0px;
   margin: 0px;
   font-size: 1rem;
   color: #212529;
+  font-family: 'Oswald';
+  font-weight: 400;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -47,172 +44,222 @@
 
 .dropdown-item:hover {
   color: #9a9a9a!important;
-  text-shadow: 0 0 1px #000;
 }
+
 .bg--header {
-  background-image: url(../img/header-1.png);
+  padding-top: 0px!important; 
+  background-image: url(../img/header-1-3.png);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 236px;
 }
 
+.flex-header {
+  padding-top: 118px;
+}
+.bg--footer {
+  padding-top: 0px!important; 
+  background-image: url(../img/footer-backg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 236px;
+}
 .bg-dark {
-  background-color: transparent!important;
-}
-
-.navbar-nav {
-  margin-bottom: 100px!important;
-}
-.mt-10 {
-   margin-top: 10.5rem !important;
-}
-.img-logo {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 2px;
-}
-
-.row-footer {
-  /* background-color: #2d87ab; */
-  background-color: #0071BC;
+  background-color:  #0071BC!important;
   max-height: 100px;
   height: 100px;
-  overflow: hidden;
 }
-.oval-footer {
-  /* background-color: green; */
-  width: 200%;
-  min-height: 450px;
-  height: 200%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  background: white;
-  -moz-transform: rotate(-8deg) translate(-7%, -96%);
-  -webkit-transform:rotate(-8deg) translate(-7%, -96%);
-  -o-transform: rotate(-8deg) translate(-7%, -96%);
-  -ms-transform:rotate(-8deg) translate(-7%, -96%);
-  transform: rotate(-8deg) translate(-7%, -96%);
+
+.img-logo {
+  margin-top: 0.5%;
+  margin-left: 0.5%;
 }
 
 .credit-footer {
-  background-color:  #0071BC;
   font-size: 1.3rem;
   padding: 1%;
+  width: 100%;
 }
 
+.h1-text {
+  font-family: 'Oswald';
+  font-weight: bold;
+}
+
+.div-breadcrumb {
+  padding-left: 2%;
+  padding-top: 15px;
+}
+
+.breadcrumb-page {
+  padding-bottom: 0.5rem;
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: small;
+  border-radius: .8rem;
+  color: #0071BC!important;
+}
+
+.breadcrumb-page a {
+  color: #0071BC!important;
+}
+.breadcrumb-page:hover {
+  color: #2E3192!important;
+}
+
+.card-page {
+  border-radius: 0.8rem;
+  min-height: 250px;
+}
+
+.card-text {
+       /* height: 100px; */
+      /*width: 100%; */
+      
+      /* overflow:hidden;  */
+      /* white-space:nowrap!important;  */
+      /* text-overflow:ellipsis; */
+     
+    }
+.card-body > p {
+  font-family: 'Oswald';
+}
+
+.card-img-top {
+  padding: 10px;
+  padding-top: 18px;
+}
+
+.badge-vermas {
+  background-color: #0071BC;
+  color:white;
+  font-family: 'Oswald';
+}
 
 /* queries */
 
 @media (max-width: 991px){ 
 
-  #opciones>.nav-item a {
-    color: #0071bc;
-    background-color: #dadada;
-    font-weight: bold;
+#opciones>.nav-item a {
+    color: black;
+    background-color: white;
     padding-left: 1%;
   }
-
   #opciones>.nav-item a:hover {
-    color: #2E3192;
+    color: #2E3192!important;
   }
+  
   .dropdown-item {
+    color:black;
     padding-left: 2% !important;
-    color: #808A8E !important;
-    font-size: 12px;
+    font-size: 16px;
   }
   
   .dropdown-item:hover {
+    cursor: pointer;
     color: #2E3192!important;
-    text-shadow: 0 0 1px #000;
-  }
-  
-  .bg--header {
-    background-image: url(../img/header-1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
+  .img-logo {
+    width: 75%;
+    height: 75%;   
+  }
+
+  .navbar-expand-lg > .container {
+    min-height: 68px;
+  }
+
+  .h1-text {
+   font-size: 2rem!important;
+  }
 }
-@media (min-width: 768px) and (max-width: 992px){
-  .oval-footer {
-    -moz-transform: rotate(-10deg) translate(-7%, -91%);
-    -webkit-transform: rotate(-10deg) translate(-7%, -91%);
-    -o-transform: rotate(-10deg) translate(-7%, -91%);
-    -ms-transform:rotate(-10deg) translate(-7%, -91%);
-    transform: rotate(-10deg) translate(-7%, -91%);
+@media (min-width: 768px) and (max-width: 948px){
+ 
+  .bg--header {
+    height: 177px;
+    transform: translate(0%, 14%);
+  }
+
+  .flex-header {
+    padding-top: 98px;
+  }
+  .h1-text {
+    font-size: 2rem!important;
+   }
+
+}
+@media (min-width: 450px) and (max-width: 767px) {
+    
+  .credit-footer {
+    font-size: 1.3rem;
   }
   /* .bg--header {
-    background-image: url(../img/header-2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 204px;
   } */
+}
+
+@media (min-width: 575px) and (max-width: 768px) {
+  .bg--header {
+    height: 157px;
+    transform: translate(-1%, 21%);
+  }
+  .flex-header {
+    padding-top: 83px;
+  }
+  .h1-text {
+    font-size: 1.5rem!important;
+   }
+}
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .bg-dark {
+    height: 97px;
+  }
+
+  .bg--header {
+    height: 155px;
+    transform: translate(-1%, 19%);
+  }
   
 }
 
-@media (min-width: 450px) and (max-width: 767px) {
-  .oval-footer {
-    width: 150%;
-    min-height: 150px;
-    height: 100%;
-    -moz-transform: rotate(-3deg) translate(-26%, -49%);
-    -webkit-transform: rotate(-3deg) translate(-26%, -49%);
-    -o-transform:  rotate(-3deg) translate(-26%, -49%);
-    -ms-transform: rotate(-3deg) translate(-26%, -49%);
-    transform: rotate(-3deg) translate(-26%, -49%);
+@media (min-width: 440px) and (max-width: 575px) {
+    .flex-header {
+    padding-top: 100px;
   }
-  
+  .h1-text {
+    font-size: 1.3rem!important;
+   }
+}
+
+@media  (max-width: 440px){
+  .h1-text {
+    font-size: 1rem !important;
+  }
+ }
+
+@media (min-width: 411px) and (max-width: 575px){
+
+  .credit-footer {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 411px){
+
   .credit-footer {
     font-size: 1rem;
   }
 
-  .oval-header {
-    -moz-transform: rotate(184deg) translate(7%, 10%);
-    -webkit-transform: rotate(184deg) translate(7%, 10%);
-    -o-transform: rotate(184deg) translate(7%, 10%);
-    -ms-transform: rotate(184deg) translate(7%, 10%);
-    transform: rotate(184deg) translate(7%, 10%);
-  }
 }
-
-
-@media (min-width: 411px) and (max-width: 510px){
-
-  .oval-footer {
-    width: 150%;
-    min-height: 150px;
-    height: 100%;
-    -moz-transform:rotate(-1deg) translate(-28%, -45%);
-    -webkit-transform: rotate(-1deg) translate(-28%, -45%);
-    -o-transform: rotate(-1deg) translate(-28%, -45%);
-    -ms-transform: rotate(-1deg) translate(-28%, -45%);
-    transform: rotate(-1deg) translate(-28%, -45%);
-  }
-  .credit-footer {
-    font-size: 0.8rem;
-  }
-}
-
-@media (min-width: 274px) and (max-width: 450px){
-
-  .oval-header {
-    -moz-transform: rotate(189deg) translate(14%, -1%);
-    -webkit-transform: rotate(189deg) translate(14%, -1%);
-    -o-transform: rotate(189deg) translate(14%, -1%);
-    -ms-transform: rotate(189deg) translate(14%, -1%);
-    transform: rotate(189deg) translate(14%, -1%);
-  }
+@media (min-width: 250px) and (max-width: 620px){
+    .div-breadcrumb {
+      padding-top: 50px;
+    }
 
 }
-
-@media (min-width: 160px) and (max-width: 416px){
-
-  .oval-header {
-    -moz-transform: rotate(189deg) translate(14%, -1%);
-    -webkit-transform: rotate(189deg) translate(14%, -1%);
-    -o-transform: rotate(189deg) translate(14%, -1%);
-    -ms-transform: rotate(189deg) translate(14%, -1%);
-    transform: rotate(189deg) translate(14%, -1%);
+@media  (max-width: 250px){
+  .div-breadcrumb {
+    padding-top: 75px;
   }
-
 }

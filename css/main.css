@@ -6,6 +6,10 @@
 
 body {
 }
+.title-card-body {
+    color: white;
+    font-family: 'Oswald';
+}
 
 #main-header {
   color: #0071BC;
@@ -85,6 +89,10 @@ body {
   border-color: transparent;
 }
 
+.card-text {
+  /* font-family: 'Oswald'; */
+
+}
 .card-header, .card-footer, .card-body {
   background-color: #0470b8;
 }
